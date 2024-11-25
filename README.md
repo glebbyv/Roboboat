@@ -41,8 +41,6 @@ Right now, the goal is to get the boat back in the water. There are several step
 ## Wireless Communication Unit
 **Objective:** Create an Arduino-based system that can receive four distinct signals and send them to the propulsion and steering units.
 
-![image](images/wheel.JPG)
-
 **How to Achieve It:**
 - Choose a wireless technology: RC or LoRa for signal receiving.
 - Develop a custom Arduino R4 shield for the communication unit.
@@ -51,6 +49,8 @@ Right now, the goal is to get the boat back in the water. There are several step
 
 ## Trailer Front Wheel
 **Objective:** Update the front wheel of the boat's trailer.
+
+![image](images/wheel.JPG)
 
 **How to Achieve It:**
 - Select all the necessary components.

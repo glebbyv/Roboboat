@@ -3,11 +3,15 @@
 ## Introduction
 This is the first iteration of automating the boat owned by FabLab in Building 9. The lab inherited the boat itself, a Radar Marine system, a propulsion assembly with both high- and low-voltage motors, and several other devices scattered around the lab. These include a NASA compass, transducers, an IMU, and more.
 
+![image](images/blockdgrm.png)
+
 ## First Milestone
 Right now, the goal is to get the boat back in the water. There are several steps required to make it run remotely (and autonomously in the future). The focus is on creating three main components: the low-voltage motor unit, the steering unit, and the wireless communication unit.
 
 ## Low-Voltage Motor Unit
 **Objective:** Develop an Arduino-based system that reads RPM from two rotating shafts (attached to low-voltage DC motors) using two hall sensors. The program should process the RPM values and adjust PWM outputs to ensure identical RPM for both motors.
+
+![image](images/motor.JPG)
 
 **How to Achieve It:**
 - **Arduino R4 Software:**
@@ -24,6 +28,8 @@ Right now, the goal is to get the boat back in the water. There are several step
 ## Steering Unit
 **Objective:** Build a closed-loop system for steering, using two DC motors to function as servo motors.
 
+![image](images/steering.JPG)
+
 **How to Achieve It:**
 - **Arduino R4 Project:**
   - Implement ADC handlers for input signals.
@@ -34,6 +40,8 @@ Right now, the goal is to get the boat back in the water. There are several step
 
 ## Wireless Communication Unit
 **Objective:** Create an Arduino-based system that can receive four distinct signals and send them to the propulsion and steering units.
+
+![image](images/wheel.JPG)
 
 **How to Achieve It:**
 - Choose a wireless technology: RC or LoRa for signal receiving.

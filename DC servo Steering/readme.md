@@ -21,6 +21,7 @@ This project involves designing and implementing a **closed-loop control system*
    - The system reads a 50Hz PWM signal as input.
    - The pulse width (1000–2000µs) determines the desired position of the steering fins.
    - Other input options (e.g., digital numbers via CANBUS) can replace the PWM signal in future implementations.
+     ![image](images/rcpwm.png)
 
 2. **Feedback Loop**:
    - The potentiometer value is read via ADC (10-, 12-, or 14-bit resolution) and mapped to the same range (1000–2000µs) as the input.
